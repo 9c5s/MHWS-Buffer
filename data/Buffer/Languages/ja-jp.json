@@ -76,10 +76,10 @@
             "healing_tooltip": "不足している体力が回復可能になります。"
         },
         "blights_and_conditions": {
-            "title": "属性や状態異常",
-            "tooltip": "属性異常や状態異常を防ぐ",
+            "title": "ステータス異常無効化",
+            "tooltip": "属性やられと状態異常を防ぐ",
             "blights": {
-                "title": "属性異常",
+                "title": "属性やられ",
                 "fire": "火",
                 "water": "水",
                 "ice": "氷",
@@ -124,10 +124,10 @@
         },
         "stats": {
             "title": "ステータス",
-            "bonus_attack": "攻撃力ボーナス",
-            "bonus_defence": "防御力ボーナス",
-            "critical_chance": "クリティカルチャンス",
-            "bonus_elemental": "Bonus elemental (*)",
+            "bonus_attack": "攻撃力",
+            "bonus_defence": "防御力",
+            "critical_chance": "会心率",
+            "bonus_elemental": "属性値",
             "element": {
             "title": "属性",
             "none": "なし",
@@ -145,14 +145,14 @@
         "mantles": {
             "title": "装衣",
             "instant_cooldown": "即時クールダウン",
-            "unlimited_duration": "持続時間無制限"
+            "unlimited_duration": "持続時間無限"
         },
         "invincible": "無敵",
         "invincible_tooltip": "ダメージ、ノックバック、ひるみ、状態異常を受けない。",
         "unlimited_sharpness": "斬れ味無限",
         "unlimited_consumables": "消費アイテム無限",
         "unlimited_slingers": "スリンガー弾無限",
-        "unlimited_meal_timer": "Unlimited Meal Timer(*)"
+        "unlimited_meal_timer": "食事効果時間無限"
     },
     "great_sword": {
         "title": "大剣",
@@ -167,7 +167,7 @@
     "dual_blades": {
         "title": "双剣",
         "demon_gauge": "鬼人ゲージ最大",
-        "demon_boost": "鬼人強化を発動"
+        "demon_boost": "鬼人強化状態"
     },
     "long_sword": {
         "title": "太刀",
@@ -206,7 +206,7 @@
     },
     "hunting_horn": {
         "title": "狩猟笛",
-        "unlimited_echo_bubbles": "無限の旋律効果"
+        "unlimited_echo_bubbles": "響玉ストック無限"
     },
     "lance": {
         "title": "ランス",
@@ -223,11 +223,11 @@
     "bow": {
         "title": "弓",
         "charge_level": "溜めレベル",
-        "all_arrow_types": "全ての矢タイプ",
+        "all_arrow_types": "ビン全種類使用可能",
         "unlimited_bottles": "ビン無限",
-        "tetrad_shot_active": "四連射サポート有効",
-        "unlimited_bladescale": "無限刃鱗増装",
-        "max_trick_arrow_gauge": "トリックアローゲージ最大"
+        "tetrad_shot_active": "ビン残数4固定",
+        "unlimited_bladescale": "刃鱗ビン無限",
+        "max_trick_arrow_gauge": "仕込み矢ゲージ最大"
     },
     "light_bowgun": {
         "title": "ライトボウガン",
@@ -260,7 +260,7 @@
         "title": "チャージアックス",
         "max_phials": "ビン最大",
         "overcharge_phials": "ビン超過",
-        "shield_enhanced": "シールド強化",
+        "shield_enhanced": "盾強化",
         "sword_enhanced": "剣強化",
         "axe_enhanced": "斧強化"
     },
